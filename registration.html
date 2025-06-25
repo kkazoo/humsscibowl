@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Registration | HUMS International Science Bowl</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Material+Icons&display=swap" rel="stylesheet">
+  <script async src="https://tally.so/widgets/embed.js"></script>
+  <style>
+    :root {
+      --harvard-crimson: #A51C30;
+      --white: #fff;
+      --black: #181818;
+      --beige: #f7f5f2;
+      --soft-card: #f4f1ed;
+      --soft-shadow: 0 4px 24px rgba(165,28,48,0.06);
+      --border: #ece7e1;
+      --gray: #f6f6f6;
+      --text-dark: #3a3a3a;
+      --text-muted: #4a4a4a;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+    }
+    body {
+      background: var(--beige);
+      color: var(--black);
+      min-height: 100vh;
+    }
+    header {
+      background: var(--harvard-crimson);
+      color: var(--white);
+      width: 100%;
+      padding: 4.5rem 0 2.5rem 0;
+      text-align: center;
+      box-shadow: 0 2px 24px rgba(165,28,48,0.10);
+    }
+    header h1 {
+      font-size: 3.2rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 0.7rem;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    header p {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: #f3eaea;
+      letter-spacing: 1px;
+      margin-bottom: 2.2rem;
+      opacity: 0.85;
+    }
+    .header-divider {
+      width: 75%;
+      height: 1.5px;
+      background: rgba(255,255,255,0.25);
+      margin: 0 auto 0.5rem auto;
+      border: none;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: transparent;
+      box-shadow: none;
+      margin-bottom: 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2.2rem;
+      padding: 0.5rem 0 0 0;
+    }
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      font-size: 1.08rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+      position: relative;
+      opacity: 0.92;
+    }
+    nav a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: var(--white);
+      transition: width 0.3s;
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    nav a:hover {
+      color: #ffe6e6;
+      opacity: 1;
+    }
+    main {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 0;
+    }
+    .tally-iframe-container {
+      width: 100%;
+      max-width: 700px;
+      background: var(--white);
+      border-radius: 1.2rem;
+      box-shadow: 0 2px 16px rgba(60,40,40,0.06);
+      overflow: hidden;
+    }
+    .tally-iframe-container iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      display: block;
+    }
+
+        /* Footer */
+    footer {
+      background: var(--harvard-crimson);
+      color: var(--white);
+      text-align: center;
+      padding: 2rem 0 1.2rem 0;
+      font-size: 1.1rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 800px) {
+      .tally-iframe-container iframe {
+        height: 90vh;
+        min-height: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="isb.html" style="color:inherit;text-decoration:none;">HUMS International Science Bowl</a></h1>
+    <p>Igniting Curiosity. Inspiring Excellence. Connecting Minds.</p>
+    <hr class="header-divider" />
+    <nav>
+      <ul>
+        <li><a href="competition.html">Competition</a></li>
+        <li><a href="material.html">Material</a></li>
+        <li><a href="registration.html">Registration</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="tally-iframe-container">
+      <iframe data-tally-src="https://tally.so/r/3EGk74?transparentBackground=1" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="HUMS ISB Registration" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 HUMS International Science Bowl. All rights reserved.
+  </footer>
+
+</body>
+</html>
