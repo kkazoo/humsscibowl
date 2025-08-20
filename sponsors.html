@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sponsors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .sponsors-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+    }
+    .sponsor-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      width: 200px;
+      transition: transform 0.2s;
+    }
+    .sponsor-card:hover {
+      transform: scale(1.05);
+    }
+    .sponsor-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .sponsor-card a {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #0073e6;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Sponsors</h1>
+    <p>We are proud to be supported by these amazing sponsors!</p>
+  </header>
+
+  <div class="sponsors-container">
+    <div class="sponsor-card">
+      <img src="https://miro.medium.com/1*MxpZo-mmCLXxXHtiEnZosQ.jpeg" alt="Sponsor 1 Logo">
+      <a href="https://harvardmicrobiologysociety.org/" target="_blank">Visit Sponsor 1</a>
+    </div>
+    <div class="sponsor-card">
+      <img src="sponsor2-logo.png" alt="Sponsor 2 Logo">
+      <a href="https://sponsor2.com" target="_blank">Visit Sponsor 2</a>
+    </div>
+    <div class="sponsor-card">
+      <img src="sponsor3-logo.png" alt="Sponsor 3 Logo">
+      <a href="https://sponsor3.com" target="_blank">Visit Sponsor 3</a>
+    </div>
+    <!-- Add more sponsor cards here -->
+  </div>
+</body>
+</html>
